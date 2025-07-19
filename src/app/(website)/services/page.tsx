@@ -8,9 +8,13 @@ const page = () => {
   return (
     <div>
       <ServicesBanner />
-      <SecurityServices />
+      <div id="security-services">
+        <SecurityServices />
+      </div>
       <Process />
-      <PricingSection />
+      <div id="pricing-section">
+        <PricingSection />
+      </div>
     </div>
   );
 };
